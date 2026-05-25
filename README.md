@@ -32,10 +32,7 @@ Este projeto é um trabalho dado nas matérias de *Engenharia de Software* e *Li
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
 
-- [Docker](https://www.docker.com/get-started) (inclui o Docker Compose)
-- [PHP 8.2+](https://www.php.net/downloads)
-- [Composer](https://getcomposer.org/download/)
-- [Node.js](https://nodejs.org/) (v18+) e npm
+- [Docker](https://www.docker.com/products/docker-desktop/)
 
 ---
 
@@ -65,33 +62,13 @@ Instala as dependências PHP (Composer) e JavaScript (npm):
 make install
 ```
 
-### 4. Gerar a chave da aplicação
-
-```bash
-make key
-```
-
-### 5. Rodar as migrations
-
-Cria as tabelas no banco de dados:
-
-```bash
-make migrate
-```
-
-### 6. Popular o banco com dados iniciais *(opcional)*
-
-```bash
-make seed
-```
-
 ---
 
 ### Rodando a aplicação
 
-#### Com Docker (recomendado)
+### 1. Abra o Docker Desktop
 
-Sobe os containers em segundo plano:
+### 2. Suba o container
 
 ```bash
 make up
@@ -112,11 +89,8 @@ make down
 | Comando | Descrição |
 |---|---|
 | `make install` | Instala as dependências PHP e JavaScript |
-| `make key` | Gera a chave da aplicação Laravel |
 | `make up` | Sobe os containers Docker em segundo plano |
 | `make down` | Para e remove os containers Docker |
-| `make migrate` | Executa as migrations do banco de dados |
-| `make seed` | Popula o banco de dados com dados iniciais |
 | `make test` | Executa a suíte de testes |
 
 ---
