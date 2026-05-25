@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    env_file:
+      - app/.env
+    ports:
+      - 8000:8000
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+      - DB_PORT=3306
+      - QUEUE_CONNECTION=sync
+      - CACHE_STORE=file
+      - SESSION_DRIVER=file
+    volumes:
+      - app_storage:/var/www/html/storage
+
+volumes:
+  app_storage:
