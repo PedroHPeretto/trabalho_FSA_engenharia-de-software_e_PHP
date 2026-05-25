@@ -45,21 +45,19 @@ cd trabalho_FSA_PHP_Eng
 
 ### 2. Configurar as variáveis de ambiente
 
-Crie o arquivo `.env` na raiz do projeto com as credenciais do banco de dados:
+Crie o arquivo `.env` com as credenciais necessárias:
+
+```bash
+cd app && cp .env.example .env
+```
+
+Popule o arquivo:
 
 ```bash
 DB_HOST=<host-do-banco>
 DB_NAME=<nome-do-banco>
 DB_USER=<usuario>
 DB_PASSWORD=<senha>
-```
-
-### 3. Instalar as dependências
-
-Instala as dependências PHP (Composer) e JavaScript (npm):
-
-```bash
-make install
 ```
 
 ---
