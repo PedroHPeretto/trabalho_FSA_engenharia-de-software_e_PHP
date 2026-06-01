@@ -2,7 +2,6 @@
   "anchors": [
     {
       "name": "API Reference",
-      // !mark
       "openapi": "SPEAKEASY_COMBINED_SPEC_URL",
       "url": "api-reference",
       "icon": "square-terminal"
