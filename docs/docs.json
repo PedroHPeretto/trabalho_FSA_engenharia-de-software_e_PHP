@@ -1,10 +1,29 @@
 {
-  "anchors": [
-    {
-      "name": "API Reference",
-      "openapi": "SPEAKEASY_COMBINED_SPEC_URL",
-      "url": "api-reference",
-      "icon": "square-terminal"
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Minha Documentação",
+  "theme": "mint",
+  "colors": {
+    "primary": "#16A34A"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "API Reference",
+        "pages": ["api-reference"]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "API Reference",
+          "href": "api-reference",
+          "icon": "square-terminal"
+        }
+      ]
     }
-  ]
+  }
 }
