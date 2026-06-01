@@ -1,0 +1,59 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Minha Documentação",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "topbarLinks": [
+    {
+      "name": "Suporte",
+      "url": "mailto:seu-email@exemplo.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "GitHub",
+    "url": "https://github.com/pedrohperetto/trabalho-fsa-engenharia-de-software_e_php"
+  },
+  "anchors": [
+    {
+      "name": "Guia",
+      "icon": "book-open",
+      "url": " guia"
+    },
+    {
+      "name": "API",
+      "icon": "bolt",
+      "url": "api"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/seu-usuario/seu-repo"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Começando",
+      "pages": ["introducao", "instalacao", "quickstart"]
+    },
+    {
+      "group": "Fundamentos",
+      "pages": ["fundamentos/visao-geral", "fundamentos/configuracao"]
+    },
+    {
+      "group": "API",
+      "pages": ["api/overview", "api/endpoints"]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/seu-usuario",
+    "twitter": "https://twitter.com/seu-usuario"
+  }
+}
